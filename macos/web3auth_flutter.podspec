@@ -4,20 +4,20 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'web3auth_flutter'
-  s.version          = '0.0.1'
-  s.summary          = 'A new Flutter plugin project.'
+  s.version          = '2.0.1'
+  s.summary          = 'Flutter SDK for Torus Web3Auth (OpenLogin)'
   s.description      = <<-DESC
-A new Flutter plugin project.
+Flutter SDK for Torus Web3Auth (OpenLogin)
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://web3auth.io'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
 
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
-  s.dependency 'FlutterMacOS'
+  s.dependency 'FlutterMacOS', 'Web3Auth', '~> 7.4.1'
 
-  s.platform = :osx, '10.11'
+  s.platform = :osx, '10.14'
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end

@@ -1,5 +1,6 @@
-import Cocoa
-import FlutterMacOS
+import Flutter
+import UIKit
+import Web3Auth
 
 public class Web3authFlutterPlugin: NSObject, FlutterPlugin {
   public static func register(with registrar: FlutterPluginRegistrar) {
