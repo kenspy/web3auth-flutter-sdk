@@ -33,6 +33,10 @@ flutter:
         pluginClass: Web3AuthFlutterPlugin
       ios:
         pluginClass: Web3AuthFlutterPlugin
+      macos:
+        pluginClass: Web3AuthFlutterPlugin
+      windows:
+        pluginClass: Web3AuthFlutterPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
