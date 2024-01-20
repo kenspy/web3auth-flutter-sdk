@@ -1,0 +1,22 @@
+PODS:
+  - FlutterMacOS (1.0.0)
+  - web3auth_flutter (2.0.1):
+    - FlutterMacOS
+
+DEPENDENCIES:
+  - FlutterMacOS (from `Flutter/ephemeral`)
+  - web3auth_flutter (from `Flutter/ephemeral/.symlinks/plugins/web3auth_flutter/macos`)
+
+EXTERNAL SOURCES:
+  FlutterMacOS:
+    :path: Flutter/ephemeral
+  web3auth_flutter:
+    :path: Flutter/ephemeral/.symlinks/plugins/web3auth_flutter/macos
+
+SPEC CHECKSUMS:
+  FlutterMacOS: 8f6f14fa908a6fb3fba0cd85dbd81ec4b251fb24
+  web3auth_flutter: c55374757cf03385b7d8873837028e4faaaee810
+
+PODFILE CHECKSUM: 236401fc2c932af29a9fcf0e97baeeb2d750d367
+
+COCOAPODS: 1.14.3
