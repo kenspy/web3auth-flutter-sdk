@@ -1,5 +1,4 @@
 import FlutterMacOS
-import UIKit
 import Web3Auth
 
 public class SwiftWeb3AuthFlutterPlugin: NSObject, FlutterPlugin {
