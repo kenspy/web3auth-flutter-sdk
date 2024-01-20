@@ -15,6 +15,7 @@ Flutter SDK for Torus Web3Auth (OpenLogin)
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
   s.dependency 'FlutterMacOS'
+  s.dependency 'Web3Auth', '~> 7.4.1'
   s.platform = :osx, '10.14'
 
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }

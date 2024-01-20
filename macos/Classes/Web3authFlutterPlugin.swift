@@ -1,5 +1,5 @@
 import FlutterMacOS
-import UIKit
+// import UIKit
 import Web3Auth
 
 public class Web3authFlutterPlugin: NSObject, FlutterPlugin {
