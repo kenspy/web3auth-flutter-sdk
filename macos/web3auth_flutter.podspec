@@ -11,13 +11,13 @@ Flutter SDK for Torus Web3Auth (OpenLogin)
                        DESC
   s.homepage         = 'https://web3auth.io'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
-
+  s.author           = { 'Web3Auth' => 'hello@web3auth.io' }
   s.source           = { :path => '.' }
   s.source_files     = 'Classes/**/*'
-  s.dependency 'FlutterMacOS', 'Web3Auth', '~> 7.4.1'
-
+  s.dependency 'FlutterMacOS'
+  s.dependency 'Web3Auth', '~> 7.4.1'
   s.platform = :osx, '10.14'
+
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES' }
   s.swift_version = '5.0'
 end
