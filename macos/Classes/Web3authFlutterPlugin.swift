@@ -9,6 +9,13 @@ public class Web3authFlutterPlugin: NSObject, FlutterPlugin {
     registrar.addMethodCallDelegate(instance, channel: channel)
   }
 
+  var web3auth: Web3Auth?
+  public var state: Web3AuthState? {
+      return web3auth?.state
+  }
+  var decoder = JSONDecoder()
+  var encoder = JSONEncoder()
+
   public func handle(_ call: FlutterMethodCall, result: @escaping FlutterResult) {
     switch call.method {
     case "getPlatformVersion":
